@@ -3,8 +3,53 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+#form simplicity
+gem 'simple_form'
+gem 'nested_form', :git => "git://github.com/ryanb/nested_form.git"
+
+#monetization
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+#authentication
+gem 'devise'
+
+#richtext editor
+gem 'ckeditor_rails'
+
+
+
+#authorization
+gem 'rolify'
+gem 'cancan'
+
+#geocoding
+gem 'geocoder'
+
+#social sharing
+gem 'social-share-button'
+
+#images
+gem 'carrierwave'
+gem 'cloudinary'
+
+#calendar
+gem 'simple_calendar'
+
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'sqlite3'
+end
+
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	# gem 'unicorn'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

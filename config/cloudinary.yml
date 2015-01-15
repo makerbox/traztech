@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: traztech
+  api_key: '127945296398312'
+  api_secret: 6qLZpBKXF0Ug8ENQNtbBf-tikrY
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: traztech
+  api_key: '127945296398312'
+  api_secret: 6qLZpBKXF0Ug8ENQNtbBf-tikrY
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: traztech
+  api_key: '127945296398312'
+  api_secret: 6qLZpBKXF0Ug8ENQNtbBf-tikrY
+  enhance_image_tag: true
+  static_image_support: false
